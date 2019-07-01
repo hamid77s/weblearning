@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "IRANSansWeb";
+    src: url('./res/font/IRANSansWeb.ttf');
+}
+
+body {
+    font-family: 'IRANSansWeb';
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+}
+
+.middle {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+
+
+#title{
+    text-align: center;
+    margin: 3rem;
+}
+#title h1 {
+    font-size: 2rem;
+    margin: 0.5rem
+}
+
+.center{
+    width: 100%;
+    display: flex;
+}
+
+.item {
+    text-align: center;
+    width: 32%;
+    height: 350px;
+    margin-right: 2rem;
+} 
+
+.item img {
+    height: 100px;
+}
+
+.item h1 {
+    font-size: 1.875rem;    
+}
+
+.item-text {
+    position: relative;
+    margin: auto;
+    width: 250px;
+    color: #666;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#foot{
+    
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.thumbnail-img {
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    border-left: 1px solid darkgrey;
+}
